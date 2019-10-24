@@ -4,35 +4,33 @@ con lo cual se utilizara el 100 % del espacio*/
 	padding: 0;
 	margin: 0;
 }
-.logo
-{
-	width:150px;
-	align-content: center;
-	height: 80%;
-	position: relative;
-}
+
 header{
-	position: fixed;
-	
+	position: relative;
 	width: 100%;
-	height: 100px;
+	height: 64px;
 	background-color: #C3B7BC;
 	opacity: 1;
 
 }
+.nav-link{
+	margin-top: -3em;
+	position: relative;
+}
 
 main{
-	position: static;
+	position: absolute;
 	align-items: start;
 	width: 100%;
-	height: 600px;
+	height: 561px;
 	background-color: #D9D9D6;
+	margin-top: 4em;
+	margin-bottom: 0em;
 }
 
 footer{
 	width: 100%;
 	height: 150px;
-	align-content: center;
 	
 }
 .pagos{
@@ -58,15 +56,15 @@ a{
 	list-style: none; 
 	position: relative;
 	float: left;
-	margin: 0;
+	margin-top: -51px;
 	padding: 0;
-	padding-left: 495px;
+	padding-left: 499px;
 }
 
 .Menu ul li{
 	position: relative;
 	float: left; /*su funcion: hace que los li se coloquen uno a lado del otro comenzando de izquierda a derecha*/ 
-	padding: 1em;
+	padding: 2em;
 
 }
 
@@ -80,11 +78,52 @@ a{
 	padding-left: 0px;
 }
 
-/*.child{
-	height: 30%;
-	background-color: orange;
-	justify-content: center;
-	align-items: center;
-	margin-top: 0;
-    float: left;
-}*/
+
+
+main{
+	clear: both;
+	position: relative;
+	height: 561px;
+	background-color: #D9D9D6;
+	opacity: 1;
+}
+
+
+.contenedor{
+	position: relative;
+	width: 18%;
+	height: 62%;
+	float: left;
+	display: inline-block;
+	background-color: #C8C9C7;
+	margin: 2em 0 3em 4.5em ; /*top, bottom right left*/
+	float: 2em;
+
+}
+
+.contenedor h3{
+	text-align: center;
+}
+main img {
+	max-width: 100%;
+	max-height: 80%;
+}
+
+.estilo_btn{
+	background-color: rgb(144, 42, 2);
+	margin-left: 5em;
+	margin-top: 1em;
+}
+
+.suscripcion p{
+	align-content: center;
+}
+.logo{
+width: 10%;
+}
+
+.suscripcion{
+	width: 70%;
+	height: 17%;
+	margin-top: -48;
+	}

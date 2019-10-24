@@ -1,55 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html>	
 <head>
 	<meta charset="utf-8">
-	<title>Mazo</title>
+	<title>MAZO</title>
 	<meta name="keywords" content="moda, tienda, ropa, vestimenta, prendas">
-	<meta name="description" content="Tienda online de ropa para hombre, mujer y niños">
+	<meta name="description" content="Tienda online de ropa para homre, mujer y niños">
 	<meta name="author" content="Ledesma Sergio">
+	<!-- css de bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- css de estilos propio -->
 	<link rel="stylesheet" type="text/css" href="asset/css/estilos.css">
 </head>
 <body>
-	
-	<header>
+	<header class="ContenedorMenu fixed-top">
+			<img src="asset/img/Mazo.png" class="logo">
 		
-			<a href="index.html"><img class="logo" src="asset/img/Mazo.png" alt="Mazo" ></a>
-		<nav class="Menu">
-			
-			<ul>
-				<li><a href="">Niño</a>
-					<ul>
-						<li><a href="">Camisa</a></li>
-						<li><a href="">Pantalon</a></li>
-						<li><a href="">Zapatillas</a></li>
-					</ul>
-				</li>
-				<li><a href="">Mujer</a>
-					<ul>
-						<li><a href="">Camisa</a></li>
-						<li><a href="">Pantalon</a></li>
-						<li><a href="">Falda</a></li>
-						<li><a href="">Zapato</a></li>
-					</ul>
-				</li>
-				<li><a href="">Hombre</a>
-					<ul>
-						<li><a href="">Camisa</a></li>
-						<li><a href="">Pantalon</a></li>
-						<li><a href="">Zapato</a></li>
-					</ul>
-				</li>
-				<li><a href="">Accesorios</a></li>
-			</ul>
-		</nav>
+		<ul class="Menu nav justify-content-center men ">
+			<li class="nav-item dropdown ">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Niño</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Separated link</a>
+					</div>
+			</li>
+			<li class="nav-item dropdown ">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mujer</a>
+					<div class="dropdown-menu">
+						 <a class="dropdown-item" href="#">Action</a>
+						 <a class="dropdown-item" href="#">Another action</a>
+						 <a class="dropdown-item" href="#">Something else here</a>
+					<div class="dropdown-divider"></div>
+						 <a class="dropdown-item" href="#">Separated link</a>
+					</div>
+			</li>
+			<li class="nav-item dropdown ">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hombre</a>
+						<div class="dropdown-menu">
+							 <a class="dropdown-item" href="#">Action</a>
+							 <a class="dropdown-item" href="#">Another action</a>
+							 <a class="dropdown-item" href="#">Something else here</a>
+						<div class="dropdown-divider"></div>
+							 <a class="dropdown-item" href="#">Separated link</a>
+						</div>
+			</li>
+			<li class="nav-item dropdown ">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Accesorios</a>
+						<div class="dropdown-menu">
+							 <a class="dropdown-item" href="#">Action</a>
+							 <a class="dropdown-item" href="#">Another action</a>
+							 <a class="dropdown-item" href="#">Something else here</a>
+						<div class="dropdown-divider"></div>
+							 <a class="dropdown-item" href="#">Separated link</a>
+						</div>
+			</li>
+					  
+		</ul>
 		
+		
+			  
 	</header>
-	<main>
+	<main class="container-fluid">
 		
-			<!-- <div class="child"></div> -->
-		
-			 
-		<p>ÚNETE A NUESTRA NEWSLETTER</p>
-		<input type="email" name="" placeholder="Introduzca e-mail" required>
+			
+			<div class="contenedor">
+				<h3>MODA NIÑO</h3>
+				<img src="asset/img/ninos.jpg" class="px-5">
+				<button type="button" class="estilo_btn btn btn-secondary">VER MÁS</button>
+					
+			</div>
+			<div class="contenedor">
+				<h3>MODA MUJER</h3>
+				<img src="asset/img/mujer.jpg" class="px-5">
+				<button type="button" class="estilo_btn btn btn-secondary">VER MÁS</button>
+					
+			</div>
+			<div class="contenedor">
+				<h3>MODA HOMBRE</h3>
+				<img src="asset/img/hombre.png" class="px-5">
+				<button type="button" class="estilo_btn btn btn-secondary">VER MÁS</button>
+				
+			</div>
+			<div class="contenedor">
+				<h3>ACCESORIOS</h3>
+				<img src="asset/img/accesorios.png" class="px-5">
+				<button type="button" class="estilo_btn btn btn-secondary">VER MÁS</button>
+			</div>
+			<div class="contenedor suscripcion">
+
+			</div>
 		
 	</main>
 	<footer>
@@ -58,4 +99,7 @@
 	</footer>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>
