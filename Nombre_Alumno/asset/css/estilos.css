@@ -127,3 +127,35 @@ width: 10%;
 	height: 17%;
 	margin-top: -48;
 	}
+
+	/*Contenido del pie*/
+
+footer{
+	background-color:#2D2926;
+	position:relative;
+	bottom:1110px;
+}
+footer div{
+	position:relative;
+	color:white;
+	text-align: center;
+	height:50px;
+}
+.ForPag{
+	width:50%;
+	top:20px;
+	left:100px;
+}
+.MetEnv{
+	width:50%;
+	bottom:50px;
+	left:600px;
+}
+footer li{
+	list-style:none;
+}
+.Aviso{
+	background-color: #53565A;
+	position:relative;
+	height:50px;
+}
